@@ -16,9 +16,10 @@
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 text-white">Klasemen</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Klub</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Liga</a></li>
+                    <li><a href="{{ route('klasemen.index') }}" class="nav-link px-2 text-white">Klasemen</a></li>
+                    <li><a href="{{ route('klub.index') }}" class="nav-link px-2 text-white">Klub</a></li>
+                    <li><a href="{{ route('pertandingan.index') }}" class="nav-link px-2 text-white">Pertandingan</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -30,10 +31,11 @@
         <div class="col-md-4 d-flex align-items-center">
             <svg class="" width="30" height="24">
             </svg>
-            <span class="mb-3 me-2 lh-1 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+            <span class="mb-3 me-2 lh-1 mb-md-0 text-body-secondary">© 2024 Sepak Bola, Inc</span>
         </div>
     </footer>
-    </script>
+
+    @include('_scripts')
 </body>
 
 </html>

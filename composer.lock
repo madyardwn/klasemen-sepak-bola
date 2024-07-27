@@ -5854,7 +5854,7 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "This is the PHP port of Hamcrest Matchers",
+            "description": "This is the PHP port of Hamcrest Pertandinganers",
             "keywords": [
                 "test"
             ],
